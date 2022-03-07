@@ -1,0 +1,14 @@
+ssh into your pi
+Then run these commands:
+sudo apt-get install build-essential libjpeg8-dev imagemagick libv4l-dev cmake git -y
+mkdir ~/mjpg-streamer
+cd ~/mjpg-streamer
+git clone https://github.com/jacksonliam/mjpg-streamer.git
+cd mjpg-streamer/mjpg-streamer-experimental
+make
+sudo make install
+use raspi-config to enable cameras on your pi
+reboot
+You should now, if you've plugged in your camera (I use a Logitech C920), be able to see 
+your stream in mainsail, though you may need to refresh the webpage.
+
