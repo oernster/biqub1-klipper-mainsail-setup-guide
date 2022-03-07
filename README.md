@@ -79,4 +79,5 @@ Plug the SD card into the slot in the middle of the right side of the Biqu B1 wh
 # Final steps
 1) Either unplug and replug in your pi (assuming you don't have a handy USB switch), or ssh in and type reboot (it will log you out automatically)
 2) Wait for the pi to reboot.
-3) In your browser you should now be able to go to the IP address of your pi and see MainSail.  You may need to do a restart of mainsail and/or do a firmware restart as needed.  If you are using wifi then you can use mainsail.local (I think; I'm not certain as I use a cable and an IP address; I'll leave that up to you).
+3) scp the files in klipper_config from the git clone to your pi and copy them into the klipper_config directory, replacing what's there on the pi.  These are files I use; you can adjust them later as you feel comfortable.
+4) In your browser you should now be able to go to the IP address of your pi and see MainSail.  You may need to do a restart of mainsail and/or do a firmware restart as needed.  If you are using wifi then you can use mainsail.local (I think; I'm not certain as I use a cable and an IP address; I'll leave that up to you).
