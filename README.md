@@ -94,3 +94,5 @@ gcode start and end sections of your slicer.  e.g. in cura, go to Ultimaker Cura
   3b) Make sure you copy and paste or scp in the timelapse.cfg file from that repo into the klipper_config directory.
   
   3c) Make sure you configure MainSail with your required settings in the GUI to use the timelapsed video capability.
+
+  
