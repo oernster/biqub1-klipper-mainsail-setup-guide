@@ -8,6 +8,7 @@ cd mjpg-streamer/mjpg-streamer-experimental
 make
 sudo make install
 use raspi-config to enable cameras on your pi
+Go into klipper_config and update yoru webcam.txt according to the comments in the file.
 reboot
 You should now, if you've plugged in your camera (I use a Logitech C920), be able to see 
 your stream in mainsail, though you may need to refresh the webpage.
