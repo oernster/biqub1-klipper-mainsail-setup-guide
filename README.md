@@ -86,7 +86,7 @@ Plug the SD card into the slot in the middle of the right side of the Biqu B1 wh
   1. gcode start and end setups for klipper on the Biqu B1
 Go into cura or your favourite slicer and copy and paste the start and end gcode text from the relevant files in the gcode directory in this repository into the
 gcode start and end sections of your slicer.  e.g. in cura, go to Ultimaker Cura | Preferences | Printers | Machine Settings, then paste in each lump of text as is.
-  
+
   2. To setup a webcam, follow the instructions in webcam-setup-guide.txt
   
   3. For timelapsed videos, you can go here and follow the instructions: https://github.com/mainsail-crew/moonraker-timelapse
@@ -95,4 +95,6 @@ gcode start and end sections of your slicer.  e.g. in cura, go to Ultimaker Cura
   
   5. Make sure you configure MainSail with your required settings in the GUI to use the timelapsed video capability.
 
-  
+# Notes
+All config files for use with a Biqu B1 and klipper have been setup for my printer and can be found in klipper_config.
+In curaprofiles you can find a solid super speedy curaprofile for PLA (I print PLA and silk PLA with these settings successfully).
