@@ -15,3 +15,4 @@ M140 S0                        ;Turn-off bed
 M117 Disabling all steppers but Z
 M84 X Y E                      ;Disable all steppers but Z
 M117 DONE! Tadaaaaaa!!!
+STATUS_READY
