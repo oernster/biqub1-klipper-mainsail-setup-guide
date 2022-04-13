@@ -96,5 +96,6 @@ gcode start and end sections of your slicer.  e.g. in cura, go to Ultimaker Cura
   5. Make sure you configure MainSail with your required settings in the GUI to use the timelapsed video capability.
 
 # Notes
-All config files for use with a Biqu B1 and klipper have been setup for my printer and can be found in klipper_config.
+All config files for use with a Biqu B1 and klipper have been setup for my printer and can be found in klipper_config.  Notably, I have also configured timelapse and the neopixel hotend with config files and the gcode directory contains start and end macros which not only are suitable for cura and a biqu b1 but will use status gcode macros to change the colours of the neopixel hot end at different times.  My setup has all the settings required for BLTouch also.
+
 In curaprofiles you can find a solid super speedy curaprofile for PLA (I print PLA and silk PLA with these settings successfully).
